@@ -1,0 +1,275 @@
+================================================================================
+  REPOSITORIOS PYTHON - MANEJO DE DATOS PERSONALES
+  Análisis para ISO 25010 e ISO 9001
+  Creado: 2026-05-07
+================================================================================
+
+Este documento contiene una recopilación de 4 repositorios Python que manejan
+datos personales (nombre, número celular, etc.) y son ideales para aplicar
+normas ISO 25010 (Calidad del Software) e ISO 9001 (Gestión de Calidad).
+
+================================================================================
+1. CONTACTFLOW - ⭐⭐⭐⭐⭐ (RECOMENDADO - MÁS COMPLETO)
+================================================================================
+
+🔗 Link de Repositorio:
+   https://github.com/moelkenzi/contactFlow
+
+📋 Descripción:
+   Sistema versátil de gestión de contactos con interfaces GUI y CLI.
+   Construido en Python con múltiples opciones de almacenamiento.
+   ⭐ 9 stars | Actualizado recientemente
+
+📌 ¿Qué es?
+   Aplicación moderna que permite organizar conexiones de forma eficiente
+   con opciones de almacenamiento flexible (JSON o SQLite).
+
+✨ Características Principales:
+   - Interfaz GUI moderna con soporte dark mode
+   - Dual interface: GUI (gráfica) y CLI (línea de comandos)
+   - Almacenamiento flexible: JSON o SQLite
+   - Búsqueda avanzada de contactos
+   - Seguimiento de fecha de creación
+   - Agregar/eliminar contactos fácilmente
+   - Auto-guardado y carga automática
+   - Seguimiento del historial de contactos
+
+📊 Datos que Maneja:
+   - Nombre del contacto
+   - Número de teléfono
+   - Email
+   - Notas adicionales
+   - Fecha de creación
+
+🛠️ Tecnologías Utilizadas:
+   - Python (lenguaje principal)
+   - Tkinter y CustomTkinter (para GUI)
+   - JSON y SQLite (almacenamiento)
+
+📁 Estructura del Proyecto:
+   - GUI.py: Interfaz gráfica moderna
+   - update.py: Interfaz de línea de comandos
+   - sample.py: Implementación SQLite
+   - contacts.json: Almacenamiento en JSON
+   - contacts.db: Base de datos SQLite
+
+🎯 Por qué es BUENO para tu informe:
+   ✅ Estructura profesional y modular
+   ✅ Múltiples opciones de almacenamiento
+   ✅ Documentación clara
+   ✅ Características avanzadas (búsqueda, historial)
+   ✅ Manejo de errores comprensivo
+   ✅ Licencia MIT (código abierto)
+
+📋 Licencia: MIT License
+
+================================================================================
+2. CONTACT MANAGEMENT SYSTEM - SQLITE
+================================================================================
+
+🔗 Link de Repositorio:
+   https://github.com/loyalfriend0615/Contact-Management-System-Sqlite
+
+📋 Descripción:
+   Sistema simple de gestión de contactos usando SQLite como base de datos.
+   Interfaz de línea de comandos para operaciones CRUD.
+   ⭐ 4 stars | Marzo 2025
+
+📌 ¿Qué es?
+   Aplicación de consola que permite realizar operaciones básicas sobre
+   una base de datos SQLite de contactos.
+
+✨ Características Principales:
+   - Insertar contacto (nombre + teléfono)
+   - Eliminar contactos
+   - Actualizar contactos
+   - Mostrar todos los contactos
+   - Buscar contacto por nombre
+   - Gestión segura de base de datos
+   - Menú interactivo de opciones
+
+📊 Datos que Maneja:
+   - Nombre (clave primaria)
+   - Número de teléfono
+
+🛠️ Tecnologías Utilizadas:
+   - Python (lenguaje principal)
+   - SQLite (base de datos)
+
+📁 Estructura del Proyecto:
+   - contacts.db: Base de datos SQLite
+   - Script principal con menú CRUD
+
+🎯 Por qué es BUENO para tu informe:
+   ✅ Base de datos clara y bien estructurada
+   ✅ Operaciones CRUD completas
+   ✅ Esquema simple y fácil de entender
+   ✅ Documentación detallada
+   ✅ Interfaz de línea de comandos intuitiva
+   ✅ Ideal para análisis de persistencia de datos
+
+================================================================================
+3. CONTACT MANAGEMENT SYSTEM - GUI (TKINTER)
+================================================================================
+
+🔗 Link de Repositorio:
+   https://github.com/0x3EF8/Contact-Management-System-Project-in-Python
+
+📋 Descripción:
+   Aplicación GUI simple con Tkinter para organizar información de contactos.
+   Diseñada para principiantes que quieran aprender Python.
+   ⭐ 5 stars | Octubre 2021
+
+📌 ¿Qué es?
+   Sistema visual con interfaz gráfica que permite gestionar contactos sin
+   necesidad de credenciales de login. Ideal para aprendizaje.
+
+✨ Características Principales:
+   - Ver lista completa de contactos
+   - Agregar nuevos contactos
+   - Actualizar contactos (doble clic en fila)
+   - Eliminar contactos
+   - Interfaz sin login requerido
+   - Tabla visual para mostrar datos
+
+📊 Datos que Maneja:
+   - Nombre
+   - Apellido
+   - Género
+   - Dirección
+   - Teléfono
+
+🛠️ Tecnologías Utilizadas:
+   - Python (lenguaje principal)
+   - Tkinter (GUI)
+
+📁 Estructura del Proyecto:
+   - Archivo .py principal con interfaz
+   - Almacenamiento local de datos
+
+🎯 Por qué es BUENO para tu informe:
+   ✅ Interfaz clara y amigable
+   ✅ Bueno para principiantes
+   ✅ Código fácil de entender
+   ✅ Operaciones CRUD visuales
+   ✅ Documentación de instalación clara
+
+================================================================================
+4. SIMPLE MOBILE CONTACT MANAGEMENT SYSTEM
+================================================================================
+
+🔗 Link de Repositorio:
+   https://github.com/0x3EF8/Simple-Mobile-Contact-Management-System-using-Python
+
+📋 Descripción:
+   Aplicación de consola simple para gestionar contactos móviles.
+   Almacenados digitalmente con operaciones CRUD básicas.
+   ⭐ 2 stars | Octubre 2021
+
+📌 ¿Qué es?
+   Sistema minimalista en consola que proporciona funcionalidades básicas
+   para almacenar y gestionar contactos telefónicos.
+
+✨ Características Principales:
+   - CRUD básico (Create, Read, Update, Delete)
+   - Almacenamiento en archivo de base de datos
+   - Interfaz de consola amigable
+   - Sin requerimiento de login
+   - Agregar contacto
+   - Eliminar contacto
+   - Ver contactos guardados
+
+📊 Datos que Maneja:
+   - Nombre
+   - Número de teléfono
+
+🛠️ Tecnologías Utilizadas:
+   - Python (lenguaje principal)
+   - Interfaz de consola
+
+📁 Estructura del Proyecto:
+   - Script principal de consola
+   - Archivo de base de datos local
+
+🎯 Por qué es ÚTIL para tu informe:
+   ✅ Muy simple y directo
+   ✅ Funcional para casos de uso básicos
+   ✅ Fácil de extender
+   ⚠️ Menos características avanzadas
+
+================================================================================
+COMPARATIVA GENERAL
+================================================================================
+
+                    ContactFlow  SQLite System  Tkinter GUI  Simple Console
+Complejidad         ⭐⭐⭐⭐⭐   ⭐⭐⭐⭐       ⭐⭐⭐       ⭐⭐
+Características     ⭐⭐⭐⭐⭐   ⭐⭐⭐⭐       ⭐⭐⭐       ⭐⭐
+Documentación       ⭐⭐⭐⭐⭐   ⭐⭐⭐⭐       ⭐⭐⭐       ⭐⭐
+Para ISO 25010      ⭐⭐⭐⭐⭐   ⭐⭐⭐⭐       ⭐⭐⭐       ⭐⭐
+Para ISO 9001       ⭐⭐⭐⭐⭐   ⭐⭐⭐⭐       ⭐⭐⭐       ⭐⭐
+Actualización       Reciente    Marzo 2025     Oct 2021     Oct 2021
+Stars               9           4              5            2
+
+RECOMENDACIÓN: 🏆 ContactFlow es la MEJOR opción para tu informe
+
+================================================================================
+CÓMO USAR ESTE DOCUMENTO
+================================================================================
+
+1. PARA DESCARGAR LOS REPOSITORIOS:
+   - Abre cada link en tu navegador
+   - Click en el botón verde "Code"
+   - Selecciona "Download ZIP"
+   - O clona con: git clone [URL del repositorio]
+
+2. PARA TU INFORME ISO:
+   - Selecciona el repositorio que más te interese (recomendamos ContactFlow)
+   - Analiza su estructura de clases
+   - Evalúa cómo cumple con ISO 25010:
+     * Funcionalidad
+     * Confiabilidad
+     * Usabilidad
+     * Eficiencia
+     * Mantenibilidad
+     * Portabilidad
+   - Evalúa cómo cumple con ISO 9001:
+     * Documentación
+     * Procesos definidos
+     * Control de calidad
+     * Mejora continua
+
+3. PARA CLONAR Y TRABAJAR LOCALMENTE:
+   git clone https://github.com/[USUARIO]/[REPOSITORIO].git
+   cd [REPOSITORIO]
+   python archivo_principal.py
+
+================================================================================
+NOTAS IMPORTANTES
+================================================================================
+
+- Todos estos repositorios están bajo licencias de código abierto
+- Los datos utilizados son ejemplo y deben cumplir GDPR/LOPD si es real
+- ContactFlow es la opción más profesional para un análisis completo
+- Puedes combinar características de varios repositorios en tu análisis
+- Considera la seguridad de datos personales en tu informe ISO
+
+================================================================================
+CONTACTO Y REFERENCIAS
+================================================================================
+
+Para más información sobre las normas ISO:
+
+ISO 25010 (Calidad del Software):
+- Define características de calidad del software
+- Enfoque en: Funcionalidad, Confiabilidad, Usabilidad, Eficiencia,
+  Mantenibilidad, Portabilidad, Seguridad, Compatibilidad
+
+ISO 9001 (Gestión de Calidad):
+- Define requisitos para sistemas de gestión de calidad
+- Enfoque en: Liderazgo, Planificación, Apoyo, Operación, Evaluación,
+  Mejora
+
+================================================================================
+Documento generado: 2026-05-07
+Usuario: MintCoder-Blitz
+================================================================================
